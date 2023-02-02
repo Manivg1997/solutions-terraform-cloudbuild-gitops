@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "mpx-training-account-tfstate"
     prefix = "env/dev"
   }
 }
